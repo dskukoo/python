@@ -12,10 +12,10 @@ data.append(int(input("enter a number")))
 data.append(input("enter a name"))
 print("you entered", data)'''
 
-mylist = []
+'''mylist = []
 mylist.append(int(input("enter a number")))
 mylist.append(int(input("enter a number")))
-'''sum = sum(mylist)
+sum = sum(mylist)
 print("the sum is", sum)
 
 if mylist[0]%2==0 and mylist[1]%2==0:
@@ -26,7 +26,7 @@ elif mylist[0]%2!=0 and mylist[1]%2!=0:
 elif mylist[0]%2!=0 and mylist[1]%2==0:
     print(mylist[0], "is odd and", mylist[1], "is even")
 else :
-    print(mylist[0], "is even and", mylist[1], "is odd")'''
+    print(mylist[0], "is even and", mylist[1], "is odd")
 
 if mylist[0]>mylist[1]:
     print(mylist[0], "is greater than", mylist[1])
@@ -34,9 +34,27 @@ if mylist[0]>mylist[1]:
 elif mylist[0]<mylist[1]:
     print(mylist[1], "is greater than", mylist[0])
 else:
-    print("both are equal")
+    print("both are equal")'''
 
+mylist = []
+a = int(input("enter a number"))
+b = int(input("enter a number"))
+mylist.append(a)
+mylist.append(b)
+operation = input("enter an operation")
+if operation == '+':
+    print("the sum is ",a+b)
+elif operation == '-':
+    print("the difference is ",a-b)
 
+elif operation == '*' or operation == 'x' or operation == 'X':
+    print("the product is ",a*b)
+
+elif operation == '/' or operation == '÷':
+    if b!=0:
+        print("the quotient is ",a/b)
+    else:
+        print("division by zero is not allowed")
 
 
 
