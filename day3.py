@@ -36,7 +36,7 @@ elif mylist[0]<mylist[1]:
 else:
     print("both are equal")'''
 
-mylist = []
+'''mylist = []
 a = int(input("enter a number"))
 b = int(input("enter a number"))
 mylist.append(a)
@@ -54,9 +54,17 @@ elif operation == '/' or operation == '÷':
     if b!=0:
         print("the quotient is ",a/b)
     else:
-        print("division by zero is not allowed")
+        print("division by zero is not allowed")'''
+#day4
 
+'''for i in range(0,50):
+    if i%2!=0:
+        print(i)'''
 
+i = 60 
+while i<50:
+    print(i)
+    i=i+1
 
     
 
