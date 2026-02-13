@@ -61,10 +61,22 @@ elif operation == '/' or operation == '÷':
     if i%2!=0:
         print(i)'''
 
-i = 60 
+'''i = 60 
 while i<50:
     print(i)
-    i=i+1
+    i=i+1'''
+
+    #day5
+
+n = int(input("enter a number"))
+sum=0
+i=1
+while n>=i:
+    
+
+    sum+=i
+    i+=1
+print("the sum is", sum)
 
     
 
