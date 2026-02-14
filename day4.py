@@ -68,7 +68,7 @@ while i<50:
 
     #day5
 
-n = int(input("enter a number"))
+'''n = int(input("enter a number"))
 sum=0
 i=1
 while n>=i:
@@ -76,7 +76,17 @@ while n>=i:
 
     sum+=i
     i+=1
-print("the sum is", sum)
+print("the sum is", sum)'''
+
+#day6
+
+n = int(input("enter a number"))
+i=1
+while i<=10:
+    print(n,"X",i,"=",n*i)
+    i+=1
+
+    
 
     
 
