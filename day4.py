@@ -86,12 +86,21 @@ while i<=10:
     print(n,"X",i,"=",n*i)
     i+=1'''
 #day 7 
-count=0
+'''count=0
 a = int(input("enter a number"))
 while a>0:
     a=a//10
     count+=1
-print("the number of digits is", count)
+print("the number of digits is", count)'''
+
+a = int(input("enter a number"))
+reverse = 0
+while a>0:
+    digit = a%10
+    reverse = reverse*10 + digit
+    a = a//10
+print("the reverse is", reverse)
+
 
 
 
