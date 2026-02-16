@@ -80,11 +80,20 @@ print("the sum is", sum)'''
 
 #day6
 
-n = int(input("enter a number"))
+'''n = int(input("enter a number"))
 i=1
 while i<=10:
     print(n,"X",i,"=",n*i)
-    i+=1
+    i+=1'''
+#day 7 
+count=0
+a = int(input("enter a number"))
+while a>0:
+    a=a//10
+    count+=1
+print("the number of digits is", count)
+
+
 
     
 
