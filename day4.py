@@ -93,16 +93,26 @@ while a>0:
     count+=1
 print("the number of digits is", count)'''
 
-a = int(input("enter a number"))
+"""a = int(input("enter a number"))
 reverse = 0
 while a>0:
     digit = a%10
     reverse = reverse*10 + digit
     a = a//10
-print("the reverse is", reverse)
+print("the reverse is", reverse)"""
 
+'''word = input("enter a word")
+is_palindrome = True
 
+for i in range (len(word)//2):
 
+    if word[i] != word[-i-1]:
+        is_palindrome = False
+        break
+if is_palindrome:
+    print(word, "is a palindrome")
+else:
+    print(word, "is not a palindrome")'''
 
     
 
