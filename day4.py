@@ -114,7 +114,17 @@ if is_palindrome:
 else:
     print(word, "is not a palindrome")'''
 
-    
+word = input("Enter a word")
+vowels= 'aeiouAEIOU'
+count = 0
 
-    
+for char in word:
+    if char in vowels:
+        count=count+1
+print("the number of vowel in ",word," is ",count)        
+
+
+
+
+
 
