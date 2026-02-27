@@ -114,6 +114,7 @@ if is_palindrome:
 else:
     print(word, "is not a palindrome")'''
 
+'''reverse=''
 word = input("Enter a word")
 vowels= 'aeiouAEIOU'
 count = 0
@@ -122,6 +123,12 @@ for char in word:
     if char in vowels:
         count=count+1
 print("the number of vowel in ",word," is ",count)        
+
+for i in range(len(word)):
+    reverse = reverse + word[-i-1]
+
+print(reverse)'''
+    
 
 
 
