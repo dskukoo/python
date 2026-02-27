@@ -129,7 +129,7 @@ for i in range(len(word)):
 
 print(reverse)'''
 
-number = int(input("Enter a word"))
+'''number = int(input("Enter a word"))
 orignal = number
 
 reverse = 0
@@ -142,8 +142,23 @@ if reverse==orignal:
     print("it is pallindrome")
 
 else:
-    print("its not pallindrome")
+    print("its not pallindrome")'''
 
+ls =[]
+i=0
+j=0
+largest = 0
+for i in range(5):
+    number = int(input("enter a number"))
+    ls.append(number)
+    i=i+1
+
+for j in range(5):
+    if ls[j]>largest:
+        largest=ls[j]
+        j=j+1
+    
+print(largest)
 
 
 
