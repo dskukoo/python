@@ -143,7 +143,7 @@ if reverse==orignal:
 
 else:
     print("its not pallindrome")'''
-
+'''
 ls =[]
 i=0
 j=0
@@ -158,13 +158,20 @@ for j in range(5):
         largest=ls[j]
         j=j+1
     
-print(largest)
+print(largest)'''
+
+ls = [1,2,3,4,5]
+sum=0
+for num in ls:
+    sum=sum+num
+print(sum)
+
+
 
 
 
  
     
-
 
 
 
