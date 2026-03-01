@@ -175,6 +175,23 @@ for item in my_list:
 
 print(new_list)'''
 
+my_list = [1,2,3,4,5] 
+largest = 0
+s_largest = 0 
+for num in my_list:
+    if num>largest:
+       largest=num
+for num in my_list:
+    if largest>num>s_largest:
+        s_largest=num
+print(s_largest)
+
+
+
+
+
+
+
 
     
 
