@@ -175,7 +175,7 @@ for item in my_list:
 
 print(new_list)'''
 
-my_list = [1,2,3,4,5] 
+'''my_list = [1,2,3,4,5] 
 largest = 0
 s_largest = 0 
 for num in my_list:
@@ -184,7 +184,22 @@ for num in my_list:
 for num in my_list:
     if largest>num>s_largest:
         s_largest=num
-print(s_largest)
+print(s_largest)'''
+
+
+word1=input("enter a word")
+word2= input("Enter a 2nd word")
+target = 'aeiouAEIOU'
+
+def Volwels(word):
+    count=0
+    for char in word:
+        if char in target:
+            count=count+1
+    print(word,"has",count,"volwels")
+        
+Volwels(word1)
+Volwels(word2)
 
 
 
