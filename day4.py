@@ -187,7 +187,7 @@ for num in my_list:
 print(s_largest)'''
 
 
-word1=input("enter a word")
+'''word1=input("enter a word")
 word2= input("Enter a 2nd word")
 target = 'aeiouAEIOU'
 
@@ -199,7 +199,116 @@ def Volwels(word):
     print(word,"has",count,"volwels")
         
 Volwels(word1)
-Volwels(word2)
+Volwels(word2)'''
+
+
+
+'''a= int(input("enter a nuumber"))
+b=int(input("enter a nuumber"))
+
+def addition(a,b):
+    print(a+b)
+addition(a,b)'''
+
+'''num=int(input("enter a number"))
+
+def Factorial(num):
+    factorial=1
+    i=1
+    for i in range(1,num+1):
+        factorial=factorial*i
+        i+=1
+    print(factorial)
+
+Factorial(num)'''
+
+import random
+
+'''
+a=int(input("enter"))
+
+def num(a):
+    if a%3==0 or a%5==0 or a%7==0:
+        print(a, "is a odd num")
+    else:
+        print(a,"is even number")
+num(a)'''
+
+'''a= random.randint(1,10)
+
+b=int(input("Enter your gusse"))
+
+if a==b:
+    print("you gussed it right")
+    
+else:
+    print("wrong")'''
+
+#  menu based calculator 
+
+operation = int(input("What operation you want to perform\n"
+"1.Addition\n" \
+"2.substraction\n" \
+"3.multiply\n" \
+"4.divide\n"))
+
+def add(a,b):
+    print(a+b)
+
+def substract(a,b):
+    print(a-b)
+
+def multiply(a,b):
+    print(a*b)
+
+def divide(a,b):
+    print(a//b)
+
+if operation==1:
+    a=float(input("enter 1st "))
+    b=float(input("enter 2nd "))
+    add(a,b)
+
+elif operation==2:
+    a=float(input("enter 1st "))
+    b=float(input("enter 2nd "))
+    substract(a,b)
+
+elif operation==3:
+    a=float(input("enter 1st "))
+    b=float(input("enter 2nd "))
+    multiply(a,b)
+
+elif operation==4:
+    
+    a=float(input("enter 1st "))
+    b=float(input("enter 2nd "))
+    if b==0:
+
+        print("invail")
+    else:
+        divide(a,b)
+
+else:
+    print("invaild")
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
