@@ -294,7 +294,7 @@ else:
 
 
 
-class_marks=[ ]
+'''class_marks=[ ]
 stu= int(input("How many student is in class"))
 i=0
 for i in range(stu):
@@ -321,8 +321,52 @@ def grade(a):
 for num in class_marks:
     per=calculate(num)
     g=grade(num)
-    print("The percentage of student is ",per,"and the grade is", g)
+    print("The percentage of student is ",per,"and the grade is", g)'''
+task=[]
+ls='False'
+def operations(op):                      
+        if op==1:
+            new_task=input("Enter your Task")
+            task.append(new_task)
+            query = input("do you want to add another task[y/n]?")
+            while query!="n":
+                n_task=input("Enter your Task")
+                task.append(n_task)
+                query = input("do you want to add another task[y/n]?")
+        elif op==2:
+            i=0
+            for i in range(len(task)):
+                print(i+1," ",task[i])
+                i+=1              
+        elif op==3:
+            
+            for i in range(len(task)):
+                print(i+1," ",task[i])
+                i+=1
+            d_task=int(input("Which Task do you want to delete"))
+            task.pop(d_task-1)        
+        elif op==4:
+            return 'True'
+                     
+        else:
+            print("Invaild")
+        print(task)
+while ls!='True':
+    op=int(input("What operation do you want to perform\n\n1.Add task\n2.view task\n3.Delete task\n\n4.Exit"))
+    ls=operations(op)
     
+
+        
+
+
+
+
+                     
+
+    
+
+
+
 
 
 
