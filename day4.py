@@ -222,7 +222,7 @@ def Factorial(num):
 
 Factorial(num)'''
 
-import random
+#import random
 
 '''
 a=int(input("enter"))
@@ -246,7 +246,7 @@ else:
 
 #  menu based calculator 
 
-operation = int(input("What operation you want to perform\n"
+'''operation = int(input("What operation you want to perform\n"
 "1.Addition\n" \
 "2.substraction\n" \
 "3.multiply\n" \
@@ -290,7 +290,42 @@ elif operation==4:
         divide(a,b)
 
 else:
-    print("invaild")
+    print("invaild")'''
+
+
+
+class_marks=[ ]
+stu= int(input("How many student is in class"))
+i=0
+for i in range(stu):
+    marks=int(input(f"Enter Marks of roll no {i+1}"))
+    class_marks.append(marks)
+    i+=1
+
+def calculate(a):
+    percentage=a/600*100
+    return percentage
+
+def grade(a):
+    if a>=80:
+        return 'A'
+    elif a>=60:
+        return 'B'
+    elif a>=40:
+        return 'C'
+    elif a>=33:
+        return 'D'
+    else:
+        return "failed"
+
+for num in class_marks:
+    per=calculate(num)
+    g=grade(num)
+    print("The percentage of student is ",per,"and the grade is", g)
+    
+
+
+
 
 
 
